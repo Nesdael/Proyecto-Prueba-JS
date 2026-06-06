@@ -29,7 +29,7 @@ The application features role-based access control (RBAC) with two roles: **admi
 
 ```bash
 # 1. Clone the repository
-git clone [<your-repo-url>](https://github.com/Nesdael/Proyecto-Prueba-JS)
+git clone https://github.com/Nesdael/Proyecto-Prueba-JS
 cd cinemax
 
 # 2. Install dependencies
