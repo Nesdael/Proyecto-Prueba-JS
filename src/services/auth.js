@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000'
+const API_URL = '/api'
 
 //Esta el clave que se usa para guardar la sesion en localStorage
 const SESSION_KEY = 'cinemax_session'

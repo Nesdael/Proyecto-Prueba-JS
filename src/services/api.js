@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000'
+const API_URL = '/api'
 
 
 //Obtenemos todas las funciones
@@ -66,8 +66,8 @@ export async function createReserva(datos) {
 
 //Actualizar una reserva(cambiar estado, cantidad, etc)
 export async function updateReserva(id, datos){
-    const res = await fetch(`${API_URL}/reservas${id}`, {
-        method: 'PACTH',
+    const res = await fetch(`${API_URL}/reservas/${id}`, {
+        method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(datos)
     })
@@ -76,7 +76,7 @@ export async function updateReserva(id, datos){
 
 //Eliminar una reserva 
 export async function deleteReserva(id){
-    const res = await fetch(`${API_URL}/reservas${id}`,{
+    const res = await fetch(`${API_URL}/reservas/${id}`, {
         method: 'DELETE'
     })
     return res.ok
