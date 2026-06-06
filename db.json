@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin Principal",
+      "email": "admin@cinemax.com",
+      "password": "Admin123!",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Carlos López",
+      "email": "carlos@mail.com",
+      "password": "User123!",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "name": "María García",
+      "email": "maria@mail.com",
+      "password": "User123!",
+      "role": "user"
+    }
+  ],
+  "funciones": [
+    {
+      "id": "1",
+      "pelicula": "Avengers: Endgame",
+      "sala": "Sala 1 - IMAX",
+      "fecha": "2025-06-10",
+      "hora": "18:00",
+      "capacidadTotal": 100,
+      "cuposDisponibles": 60,
+      "estado": "activa"
+    },
+    {
+      "id": "2",
+      "pelicula": "Spider-Man: No Way Home",
+      "sala": "Sala 2 - 3D",
+      "fecha": "2025-06-11",
+      "hora": "20:30",
+      "capacidadTotal": 80,
+      "cuposDisponibles": 50,
+      "estado": "activa"
+    },
+    {
+      "id": "3",
+      "pelicula": "The Batman",
+      "sala": "Sala 3 - 2D",
+      "fecha": "2025-06-09",
+      "hora": "15:00",
+      "capacidadTotal": 60,
+      "cuposDisponibles": 0,
+      "estado": "cancelada"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "1",
+      "usuarioId": "2",
+      "usuarioNombre": "Carlos López",
+      "funcionId": "1",
+      "peliculaNombre": "Avengers: Endgame",
+      "cantidadEntradas": 2,
+      "fechaReserva": "2025-06-05",
+      "estado": "confirmada"
+    },
+    {
+      "id": "2",
+      "usuarioId": "3",
+      "usuarioNombre": "María García",
+      "funcionId": "2",
+      "peliculaNombre": "Spider-Man: No Way Home",
+      "cantidadEntradas": 3,
+      "fechaReserva": "2025-06-05",
+      "estado": "pendiente"
+    },
+    {
+      "usuarioId": "2",
+      "usuarioNombre": "Carlos López",
+      "funcionId": "1",
+      "peliculaNombre": "Avengers: Endgame",
+      "cantidadEntradas": 20,
+      "fechaReserva": "2026-06-06",
+      "estado": "pendiente",
+      "id": "m__BByY"
+    }
+  ]
+}
